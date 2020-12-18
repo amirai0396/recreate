@@ -115,3 +115,12 @@ button {
   left: 120%;
   transform: translateY(-190px);
 }
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 75%;
+    text-wrap: nowrap;
+  }
+  nav {
+    text-align: center;
+  }
+}
